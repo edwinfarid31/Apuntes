@@ -1,2 +1,4 @@
-saludo = "Hello world"
-print(saludo)
+def saludo(nombre):
+    print(f"Hola {nombre}")
+
+saludo("Farid")
